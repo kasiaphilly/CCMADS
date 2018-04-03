@@ -155,7 +155,7 @@ h3 {
 .drexelLink:hover{
   color: #006298;
   transition: 0.3s;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .logo {
@@ -173,7 +173,7 @@ h3 {
 }
 
 .member {
-  height: 450px;
+  height: 500px;
   margin: 20px;
   padding: 2px;
   background-color: #FFC600;

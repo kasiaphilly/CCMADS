@@ -144,8 +144,22 @@ h3 {
   color: #FFC600;
 }
 
+.drexelLink{
+  text-decoration: none;
+  color: #07294D;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .link:hover {
   text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.drexelLink:hover{
+  color: #006298;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -165,9 +179,9 @@ h3 {
 }
 
 .member {
-  height: 500px;
+  height: 400px;
   margin: 20px;
-  padding: 5px;
+  padding: 2px;
   background-color: #FFC600;
   opacity: 1;
   box-sizing: border-box;
@@ -185,14 +199,14 @@ h3 {
 
 .info{
   height: auto;
-  padding-left: 10px;
-  padding-right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
   padding-top: 0px;
 }
 
 .picture {
-  width:150px;
-  height:150px;
+  width:120px;
+  height:120px;
   border-radius: 50%;
 }
 
@@ -214,11 +228,5 @@ h3 {
 .description {
   color: #07294D;
   font-size: 14px;
-}
-
-.drexel {
-  color: #07294D;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin: 5px 0px 15px 0px ;
 }

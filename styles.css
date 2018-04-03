@@ -59,6 +59,7 @@ p{
  border-radius: 8px;
  box-shadow: 0 4px 4px #666;
  justify-content: center;
+ text-align: center;
  padding: 30px;
  margin: 10px 20px 0 20px;
 }
@@ -99,7 +100,7 @@ h1 {
 
 h2 {
   font-family: 'Futura', sans-serif;
-  color: #fff;
+  color: #FFC600;
   font-size: 1.6em;
   text-transform: uppercase;
   margin: 20px;
@@ -154,6 +155,14 @@ h3 {
   margin: 20px 30px 60px 30px;
 }
 
+.confInfo{
+  font-family: 'Futura', sans-serif;
+  color: #FFC600;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin: 20px;
+  text-align:center;
+}
 
 .member {
   height: 500px;
@@ -205,4 +214,10 @@ h3 {
 .description {
   color: #07294D;
   font-size: 14px;
+}
+
+.drexel {
+  color: #07294D;
+  font-size: 20px;
+  margin-top: 30px;
 }

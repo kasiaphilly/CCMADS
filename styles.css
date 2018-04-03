@@ -155,7 +155,7 @@ h3 {
 .drexelLink:hover{
   color: #006298;
   transition: 0.3s;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .logo {

@@ -70,6 +70,7 @@ p{
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  margin: .3em 0em .7em 0em;
 }
 
 .buttonsSection1 {
@@ -88,18 +89,18 @@ p{
 }
 
 h1 {
-  font-family: 'Futura-Condensed', sans-serif;
+  font-family: "futura-pt-condensed", sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 36px;
 
   color: #07294D;
   text-transform: uppercase;
-  margin: 0em .1em 0.3em 0em;
+  margin: 1em .1em .5em 0em;
 }
 
 h2 {
-  font-family: 'Futura-Condensed', sans-serif;
+  font-family: "futura-pt-condensed", sans-serif;
   color: #FFC600;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -116,19 +117,22 @@ h3 {
 .button {
   margin: 1.5em 1em 1em 0.25em;
   padding: 5px;
-  border: 1px #07294D;
+  border-style: solid;
+  border-width: 1px;
+  border-color:  #07294D;
   border-width: 1.5px;
   border-radius: 4px;
   background-color: #FFC600;
   opacity: 1;
-  box-shadow: 0 3px 2px #666;
-  font-family: 'Futura-Condensed', sans-serif;
+  box-shadow: 2px 3px 2px #555;
+  font-family: "futura-pt-condensed", sans-serif;
   font-size: .9em;
   color: #07294D;
   text-decoration: none;
 }
 
 .button:hover {
+  background-color: #ffe27f;
   color: #006298;
   transition: 0.3s;
   cursor: pointer;
@@ -136,7 +140,7 @@ h3 {
 
 .button:active {
   background-color: #FFC600;
-  box-shadow: 0 2px 1px #666;
+  box-shadow: 0 2px 1px #555;
   transform: translateY(2px);
 }
 
@@ -148,8 +152,7 @@ h3 {
   text-decoration: none;
   color: #07294D;
   font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 1em 0em 2em 0em;
 }
 
 .link:hover {
@@ -228,5 +231,5 @@ h3 {
 .description {
   color: #07294D;
   font-size: 14px;
-  margin: 5px 0px 15px 0px ;
+  margin: 5px 0px 20px 0px ;
 }

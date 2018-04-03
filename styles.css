@@ -89,6 +89,7 @@ p{
 
 h1 {
   font-family: 'Futura', sans-serif;
+  font-stretch: condensed;
   text-align: center;
   font-weight: bold;
   font-size: 36px;
@@ -100,6 +101,7 @@ h1 {
 
 h2 {
   font-family: 'Futura', sans-serif;
+  font-stretch: condensed;
   color: #FFC600;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -123,6 +125,7 @@ h3 {
   opacity: 1;
   box-shadow: 0 3px 2px #666;
   font-family: 'Futura', sans-serif;
+  font-stretch: condensed;
   font-size: .9em;
   color: #07294D;
   text-decoration: none;

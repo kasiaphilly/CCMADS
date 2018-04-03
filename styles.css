@@ -73,15 +73,6 @@ p{
   margin: .3em 0em .7em 0em;
 }
 
-.buttonsSection1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items:stretch;
-  min-width: 600px;
-  margin: .3em 2em .7em 2em;
-}
-
 #wrapper {
     min-width: 500px;
     max-width: 1800px;
